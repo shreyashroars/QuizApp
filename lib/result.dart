@@ -1,9 +1,11 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 
 // ignore: use_key_in_widget_constructors
 class Result extends StatelessWidget {
   final int resultScore;
-  final Function resetHandler;
+  final VoidCallback resetHandler;
   // ignore: use_key_in_widget_constructors
   const Result(this.resultScore, this.resetHandler);
   String get resultPhrase {
